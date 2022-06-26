@@ -1,0 +1,7 @@
+CREATE TABLE DIAGRAM_OPTION
+      (OPTION_NAME              CHAR(6) NOT NULL,
+       DIAG_ID                  INTEGER NOT NULL,
+       SUBJECT_ID               INTEGER,
+       DISPLAY_ID               INTEGER,
+       OPTION_VALUE             VARCHAR(254)
+);

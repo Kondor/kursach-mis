@@ -1,0 +1,11 @@
+CREATE TABLE ENTITY_INDEX
+      (INDEX_ID                 INTEGER NOT NULL,
+       INDEX_TYPE               CHAR(6) NOT NULL,
+       ENTITY_ID                INTEGER NOT NULL,
+       ENTITY_TYPE              CHAR(6) NOT NULL,
+       DIAG_ID                  INTEGER NOT NULL,
+       INDEX_GENERATE           INTEGER,
+       INDEX_LOGICAL_NAME       VARCHAR(254),
+       INDEX_PHYS_NAME          VARCHAR(254),
+       INDEX_FLAGS              INTEGER NOT NULL
+);

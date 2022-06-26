@@ -1,0 +1,25 @@
+CREATE TABLE ERWIN_RELATIONSHIP
+      (RELATIONSHIP_ID          INTEGER NOT NULL,
+       RELATIONSHIP_TYPE        CHAR(6) NOT NULL,
+       DIAG_ID                  INTEGER NOT NULL,
+       PARENT_ENTITY            INTEGER NOT NULL,
+       PARENT_TYPE              CHAR(6) NOT NULL,
+       CHILD_ENTITY             INTEGER NOT NULL,
+       CHILD_TYPE               CHAR(6) NOT NULL,
+       VERB_PHRASE              VARCHAR(254),
+       CARDINALITY              CHAR(6),
+       PARENT_DELETE_RULE       CHAR(6),
+       PARENT_UPDATE_RULE       CHAR(6),
+       CHILD_INSERT_RULE        CHAR(6),
+       CHILD_DELETE_RULE        CHAR(6),
+       CHILD_UPDATE_RULE        CHAR(6),
+       PARENT_INSERT_RULE       CHAR(6),
+       NULL_RULE                CHAR(6),
+       RELATIONSHIP_DEFINITION  INTEGER,
+       VERB_PHRASE2             VARCHAR(254),
+       SYNONYM_NAME             VARCHAR(128),
+       VIEWSEQ                  INTEGER
+       ISOUTER                  INTEGER
+       MMASSOC                  INTEGER
+       REL_FLAGS                INTEGER
+);

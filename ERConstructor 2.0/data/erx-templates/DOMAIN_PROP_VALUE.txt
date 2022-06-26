@@ -1,0 +1,13 @@
+CREATE TABLE DOMAIN_PROP_VALUE
+      (DOMAIN_ID                INTEGER NOT NULL,
+       DOMAIN_TYPE              CHAR(6) NOT NULL,
+       DIAG_ID                  INTEGER NOT NULL,
+       TARGET_SYSTEM            CHAR(6) NOT NULL,
+       DOMAINPV_SEQ             INTEGER NOT NULL,
+       DOMAINPV_TYPE            CHAR(6) NOT NULL,
+       DOMAINPV_TEXT_VAL        INTEGER,
+       DOMAINPV_INT_VAL         INTEGER,
+       DOMAINPV_ID_VAL          INTEGER,
+       DOMAINPV_STR_VAL         VARCHAR(254),
+       DOMAINPV_INHERIT         INTEGER NOT NULL
+);

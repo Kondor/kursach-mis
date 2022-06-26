@@ -1,0 +1,6 @@
+CREATE TABLE ERWIN_SUBTYPE_REL
+      (SUBTYPE_ID               INTEGER NOT NULL,
+       SUBTYPE_TYPE             CHAR(6) NOT NULL,
+       DIAG_ID                  INTEGER NOT NULL,
+       DISCRIMINATOR_NAME       VARCHAR(254)
+);

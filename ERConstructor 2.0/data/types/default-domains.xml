@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfERDomainLogic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ERDomainLogic id="ce18e5ea98fd1dd314a46bf1a75cd9324" baseDomain="true" parentDomain="" category="">
+    <logical name="&lt;&lt;default&gt;&gt;" datatype="BINARY" datatypeParam1="0" datatypeParam2="0" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDomain xsi:type="PhysicalAccessDomain" name="&lt;&lt;default&gt;&gt;" datatype="BINARY" datatypeParam1="0" datatypeParam2="0" />
+      </item>
+    </physical>
+  </ERDomainLogic>
+  <ERDomainLogic id="5e8edea9527000c1ea946a75cd91dd2e4" baseDomain="true" parentDomain="ce18e5ea98fd1dd314a46bf1a75cd9324" category="Blob">
+    <logical name="&lt;Blob&gt;" datatype="BINARY()" datatypeParam1="255" datatypeParam2="0" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDomain xsi:type="PhysicalAccessDomain" name="&lt;Blob&gt;" datatype="BINARY()" datatypeParam1="255" datatypeParam2="0" />
+      </item>
+    </physical>
+  </ERDomainLogic>
+  <ERDomainLogic id="ca162f0d326ab16410d8ce62d23301261" baseDomain="true" parentDomain="ce18e5ea98fd1dd314a46bf1a75cd9324" category="Datetime">
+    <logical name="&lt;Datetime&gt;" datatype="DATETIME" datatypeParam1="0" datatypeParam2="0" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDomain xsi:type="PhysicalAccessDomain" name="&lt;Datetime&gt;" datatype="DATETIME" datatypeParam1="0" datatypeParam2="0" />
+      </item>
+    </physical>
+  </ERDomainLogic>
+  <ERDomainLogic id="e02aaff7aeae574841c38f4758ad0f3ad" baseDomain="true" parentDomain="ce18e5ea98fd1dd314a46bf1a75cd9324" category="Number">
+    <logical name="&lt;Number&gt;" datatype="INTEGER" datatypeParam1="0" datatypeParam2="0" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDomain xsi:type="PhysicalAccessDomain" name="&lt;Number&gt;" datatype="INTEGER" datatypeParam1="0" datatypeParam2="0" />
+      </item>
+    </physical>
+  </ERDomainLogic>
+  <ERDomainLogic id="33146380062e69ca9f5e56e4f8fbdc200" baseDomain="true" parentDomain="ce18e5ea98fd1dd314a46bf1a75cd9324" category="String">
+    <logical name="&lt;String&gt;" datatype="CHAR" datatypeParam1="40" datatypeParam2="0" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDomain xsi:type="PhysicalAccessDomain" name="&lt;String&gt;" datatype="CHARACTER()" datatypeParam1="40" datatypeParam2="0" />
+      </item>
+    </physical>
+  </ERDomainLogic>
+
+  <!--
+  da8038eb07c5693915b5b89222ad55998
+  b7d714e281f60c6c581da5505d1d15bd3
+  33146380062e69ca9f5e56e4f8fbdc200
+  -->
+
+</ArrayOfERDomainLogic>

@@ -1,0 +1,6 @@
+CREATE TABLE COLOR
+      (COLOR_ID                 INTEGER NOT NULL,
+       COLOR_TYPE               CHAR(6) NOT NULL,
+       DIAG_ID                  INTEGER NOT NULL,
+       COLOR_VAL                INTEGER NOT NULL
+);

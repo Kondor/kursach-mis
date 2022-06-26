@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-16"?>
+<types xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!--
+  -->
+  <ERDatatypeLogic category="Blob">
+    <logical name="AUDIO()" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="BINARY()" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Blob">
+    <logical name="BINARY" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="BINARY" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Blob">
+    <logical name="BINARY()" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="BINARY()" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Blob">
+    <logical name="IMAGE" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="BINARY" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Blob">
+    <logical name="LARGE BINARY" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="BINARY" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Blob">
+    <logical name="LARGE BINARY()" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="BINARY()" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Blob">
+    <logical name="SECURITY_ID" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="BINARY" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Blob">
+    <logical name="VIDEO" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="BINARY" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+
+  <!--
+  DATETIME -> DATETIME
+  DATE -> DATETIME
+  TIME -> DATETIME
+  TIMESTAMP -> DATETIME
+  TIMESTAMP() -> DATETIME
+  -->
+  <ERDatatypeLogic category="Datetime">
+    <logical name="DATETIME" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="DATETIME" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Datetime">
+    <logical name="DATE" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="DATETIME" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Datetime">
+    <logical name="TIME" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="DATETIME" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Datetime">
+    <logical name="TIMESTAMP" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="DATETIME" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Datetime">
+    <logical name="TIMESTAMP()" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="DATETIME" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+
+  <!--
+  Autoincrement -> Autoincrement
+
+  BOOLEAN -> BIT
+
+  BYTE -> TINYINT
+  SMALLINT -> SMALLINT
+  INTEGER -> INTEGER
+
+  DECIMAL() -> DECIMAL()
+  DECIMAL(,) -> DECIMAL(,)
+
+  NUMERIC -> DECIMAL()
+  NUMERIC() -> DECIMAL()
+  NUMERIC(,) -> DECIMAL(,)
+
+  SHORT FLOAT -> REAL
+  REAL -> REAL
+  FLOAT -> FLOAT
+  LONG FLOAT -> DOUBLE
+
+  MONEY -> MONEY
+  MONEY() -> MONEY
+  MONEY(,) -> MONEY
+
+  UNIQUEID -> UNIQUEIDENTIFIER
+  -->
+  <ERDatatypeLogic category="Number">
+    <logical name="Autoincrement" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="Autoincrement" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Number">
+    <logical name="BOOLEAN" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="BIT" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Number">
+    <logical name="BYTE" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="TINYINT" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Number">
+    <logical name="SMALLINT" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="SMALLINT" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Number">
+    <logical name="INTEGER" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="INTEGER" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Number">
+    <logical name="INTEGER" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="INTEGER" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Number">
+    <logical name="DECIMAL()" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="DECIMAL()" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Number">
+    <logical name="DECIMAL(,)" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="DECIMAL(,)" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Number">
+    <logical name="NUMERIC" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="DECIMAL()" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Number">
+    <logical name="NUMERIC()" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="DECIMAL()" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Number">
+    <logical name="NUMERIC(,)" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="DECIMAL(,)" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Number">
+    <logical name="SHORT FLOAT" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="REAL" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Number">
+    <logical name="REAL" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="REAL" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Number">
+    <logical name="FLOAT" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="FLOAT" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Number">
+    <logical name="LONG FLOAT" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="DOUBLE" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Number">
+    <logical name="MONEY" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="MONEY" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Number">
+    <logical name="MONEY()" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="MONEY" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Number">
+    <logical name="MONEY(,)" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="MONEY" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="Number">
+    <logical name="UNIQUEID" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="UNIQUEIDENTIFIER" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+
+  <!--
+  CHAR -> CHARACTER
+  CHAR() -> CHARACTER()
+  LONG TEXT() -> TEXT()
+  NCHAR -> TEXT
+  NCHAR() -> TEXT()
+  NVARCHAR() -> TEXT()
+  TEXT -> TEXT
+  TEXT() -> TEXT()
+  VARCHAR() -> TEXT()
+  -->
+  <ERDatatypeLogic category="String">
+    <logical name="CHAR" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="CHARACTER" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="String">
+    <logical name="CHAR()" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="CHARACTER()" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="String">
+    <logical name="LONG TEXT()" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="TEXT()" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="String">
+    <logical name="NCHAR" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="TEXT" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="String">
+    <logical name="NCHAR()" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="TEXT()" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="String">
+    <logical name="NVARCHAR()" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="TEXT()" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="String">
+    <logical name="TEXT" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="TEXT" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="String">
+    <logical name="TEXT()" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="TEXT()" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+  <ERDatatypeLogic category="String">
+    <logical name="VARCHAR()" />
+    <physical>
+      <item>
+        <string>Access</string>
+        <GenericPhysicalDatatype xsi:type="PhysicalAccessDatatype" name="TEXT()" />
+      </item>
+    </physical>
+  </ERDatatypeLogic>
+
+</types>

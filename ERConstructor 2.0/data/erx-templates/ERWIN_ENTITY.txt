@@ -1,0 +1,11 @@
+CREATE TABLE ERWIN_ENTITY
+      (ENTITY_ID                INTEGER NOT NULL,
+       ENTITY_TYPE              CHAR(6) NOT NULL,
+       DIAG_ID                  INTEGER NOT NULL,
+       ENTITY_NAME              VARCHAR(254),
+       TABLE_NAME               VARCHAR(254),
+       ENTITY_NOTE              INTEGER,
+       ENTITY_DEFINITION        INTEGER
+       VIEW_WITH_CHECK          INTEGER
+       ENTITY_FLAGS             INTEGER
+);

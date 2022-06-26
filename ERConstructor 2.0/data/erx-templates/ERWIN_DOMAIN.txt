@@ -1,0 +1,7 @@
+CREATE TABLE ERWIN_DOMAIN
+      (DOMAIN_ID                INTEGER NOT NULL,
+       DOMAIN_TYPE              CHAR(6) NOT NULL,
+       DIAG_ID                  INTEGER NOT NULL,
+       PARENT_DOMAIN_ID         INTEGER,
+       DOMAIN_INTERNAL          INTEGER NOT NULL
+);

@@ -1,0 +1,10 @@
+CREATE TABLE INDEX_MEMBER
+      (INDEX_ID                 INTEGER NOT NULL,
+       INDEX_TYPE               CHAR(6) NOT NULL,
+       ENTITY_ID                INTEGER NOT NULL,
+       ENTITY_TYPE              CHAR(6) NOT NULL,
+       ATTRIBUTE_ID             INTEGER NOT NULL,
+       ATTRIBUTE_TYPE           CHAR(6) NOT NULL,
+       DIAG_ID                  INTEGER NOT NULL,
+       INDEX_POSITION           INTEGER
+);
